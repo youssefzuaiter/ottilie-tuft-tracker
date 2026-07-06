@@ -45,7 +45,6 @@ The app will be available at `http://localhost:5173`.
 ## Screenshot
 
 ![Ottilie Tuft Commission Tracker](Youssef_Zuaiter_OttilieTuftTracker_Screenshot.png)
-
 ## Live Demo
 
 Deployed via Netlify — [link here]
