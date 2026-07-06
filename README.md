@@ -1,16 +1,55 @@
-# React + Vite
+# Ottilie Tuft — Commission Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple internal tool for tracking custom rug commission requests for **Ottilie Tuft**, a handmade tufted rug business. Built as part of the Software Persona / TNC Group Professional Development Program (Web Development / JavaScript track).
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This app lets you log incoming rug commission requests, track their progress through three stages (Requested → In Progress → Completed), and remove them once fulfilled. Data persists locally in the browser via `localStorage`, so your commission list survives page refreshes.
 
-## React Compiler
+**Features:**
+- **Add** a new commission (customer name + rug design/theme)
+- **List** all commissions as cards
+- **Update** status by clicking the status pill (cycles through Requested / In Progress / Completed)
+- **Delete** a commission with the × button
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Built With
 
-## Expanding the ESLint configuration
+- **React** 19 (via Vite)
+- **Tailwind CSS** 4
+- **localStorage** for persistence (no backend required)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+### Prerequisites
+- Node.js (v18 or higher recommended)
+- npm
+
+### Installation & Running Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/youssefzuaiter/ottilie-tuft-tracker.git
+
+# Move into the project folder
+cd ottilie-tuft-tracker
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+The app will be available at `http://localhost:5173`.
+
+## Screenshot
+
+![Ottilie Tuft Commission Tracker](Youssef_Zuaiter_OttilieTuftTracker_Screenshot.png)
+
+## Live Demo
+
+Deployed via Netlify — [link here]
+
+## Author
+
+Youssef Zuaiter
